@@ -1,0 +1,58 @@
+body {
+  background-color: bisque;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.wrapper {
+  justify-content: space-evenly;
+}
+
+.card {
+  border: 1px solid lightblue;
+  font-size: small;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.card-title {
+  text-align: center;
+}
+
+
+footer {
+  font-size: xx-small;
+  margin-left: 15px;
+}
+
+.card-text {
+  text-align: justify;
+  margin-bottom: 0px;
+}
+
+.list-group-item-bold {
+  font-weight: bold;
+  list-style-type: none;
+  margin-left: 15px;
+}
+
+.boldtext {
+  font-weight: bold;
+}
+
+.list-group-item-a {
+  background-color: darkgray;
+  color: yellow;
+  list-style-type: none;
+  text-indent: 15px;
+}
